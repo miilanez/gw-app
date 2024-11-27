@@ -17,6 +17,13 @@ export default {
       'gray': '#E6E6E6',
       'red': '#b91c1c',
     },
+    screens: {
+      xs: '420px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1480px',
+    },
     extend: {},
   },
   plugins: [],
