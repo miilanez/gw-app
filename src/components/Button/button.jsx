@@ -6,7 +6,7 @@ const button = ({ label, type, onClick }) => {
       <button
         type={type}
         onClick={onClick}
-        className="bg-gradient-to-b from-principal to-terciary rounded-lg hover:from-terciary hover:to-principal p-5 flex justify-center w-full text-white cursor-pointer"
+        className="min-w-36 bg-gradient-to-b from-principal to-terciary rounded-lg hover:from-terciary hover:to-principal p-5 flex justify-center w-full text-white cursor-pointer"
       >
         {label}
       </button>
