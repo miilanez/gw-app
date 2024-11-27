@@ -6,7 +6,10 @@ import Button from "../../components/Button/button";
 const delivery = () => {
   return (
     <div className="p-[2rem]">
-      <div className="flex justify-center items-center p-1 text-[32px]">
+      {/* <div className="flex justify-center items-center p-1 text-[32px]">
+        Entregas
+      </div> */}
+      <div className="flex justify-center items-center text-[24px]">
         Entregas
       </div>
       <div className="my-5">
